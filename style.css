@@ -58,8 +58,8 @@ h2 {
 ul,
 ol {
   list-style-position: inside;
-  border: var(--border);
   padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 ul li,
@@ -71,7 +71,6 @@ ol li {
 .container {
   width: 90%;
   margin: 0 auto;
-  border: var(--border);
 }
 
 .about {
@@ -117,9 +116,8 @@ ol li {
 }
 
 .ingredients__steps > div {
-  border: var(--border);
   width: 90%;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .images__meal {
@@ -133,7 +131,7 @@ ol li {
   margin: auto;
   max-width: 400px;
   height: 300px;
-  border: var(--border);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .images__meal > figure > img {
